@@ -27,7 +27,7 @@ process.stdin.on('keypress', (ch, key) => {
       yindex = yindex + 1;
       levels(level, xindex, yindex)
       if (dev == 1) {console.log(`Coords: \x1b[93mX:${xindex},  Y:${yindex}\x1b[37m`)}
-      if (xindex == 9 && yindex == 6) {level = level + 1}
+      if (xindex == 9 && yindex == 6) {level = level + 1;xindex=1;yindex=1;}
     }
     if (key.name == 'd') {
       xindex = xindex + 1;
