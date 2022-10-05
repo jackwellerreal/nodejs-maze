@@ -1,5 +1,5 @@
 # SpookCord Week 1
 
-# Idea: Maze
+## Idea: Maze
 
 ## Language: JavaScript
