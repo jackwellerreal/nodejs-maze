@@ -1,5 +1,5 @@
 const keypress = require('keypress');
-var { levels } = require("./levels");
+const { levels } = require("./levels");
 
 var xindex = 1;
 var yindex = 1;
