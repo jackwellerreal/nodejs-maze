@@ -78,6 +78,7 @@ function hitbox() {
     if (xindex == 8 && yindex == 6) {xindex = 1;yindex=1}
     if (xindex == 8 && yindex == 7) {xindex = 1;yindex=1}
 
+    if (xindex == 10 && yindex == 2) {xindex = 1;yindex=1}
     if (xindex == 10 && yindex == 3) {xindex = 1;yindex=1}
     if (xindex == 10 && yindex == 4) {xindex = 1;yindex=1}
     if (xindex == 10 && yindex == 5) {xindex = 1;yindex=1}
@@ -134,7 +135,8 @@ process.stdin.on('keypress', (ch, key) => {
       xindex = xindex - 1;
       if (xindex <= 0){xindex=1}
       if (yindex <= 0){yindex=1}
-      if (xindex == 5 && yindex == 3) {xindex = 4;yindex=3}
+      if (level == 3) {if (xindex == 5 && yindex == 3) {xindex = 4;yindex=3}}
+      if (level == 4) {if (xindex == 2 && yindex == 4) {xindex = 7;yindex=2}}
       hitbox()
       levels(level, xindex, yindex)
       if (dev == 1) {console.log(`Coords: \x1b[93mX:${xindex},  Y:${yindex}\x1b[37m`)}
@@ -149,12 +151,14 @@ process.stdin.on('keypress', (ch, key) => {
       if (level == 1) {if (xindex == 9 && yindex == 6) {level = level + 1;xindex=1;yindex=1;}}
       if (level == 2) {if (xindex == 9 && yindex == 7) {level = level + 1;xindex=1;yindex=1;}}
       if (level == 3) {if (xindex == 9 && yindex == 6) {level = level + 1;xindex=1;yindex=1;}}
+      if (level == 4) {if (xindex == 9 && yindex == 6) {level = level + 1;xindex=1;yindex=1;}}
     }
     if (key.name == 'd') {
       xindex = xindex + 1;
       if (xindex <= 0){xindex=1}
       if (yindex <= 0){yindex=1}
-      if (xindex == 5 && yindex == 3) {xindex = 6;yindex=3}
+      if (level == 3) {if (xindex == 5 && yindex == 3) {xindex = 6;yindex=3}}
+      if (level == 4) {if (xindex == 8 && yindex == 2) {xindex = 3;yindex=4}}
       hitbox()
       levels(level, xindex, yindex)
       if (dev == 1) {console.log(`Coords: \x1b[93mX:${xindex},  Y:${yindex}\x1b[37m`)}
