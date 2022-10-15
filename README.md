@@ -1,7 +1,5 @@
 # SpookCord Event
 
-# 🥈Came 2nd 
-
 ## Week 1
 
 ## 🥈 Came 2nd
