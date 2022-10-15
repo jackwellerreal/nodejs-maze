@@ -1,5 +1,7 @@
 # SpookCord Event
 
+# 🥈Came 2nd 
+
 ## Week 1
 
 ## Made with:
