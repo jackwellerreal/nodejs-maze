@@ -13,9 +13,3 @@
 ## Run:
 
 [![Run on Repl.it](https://replit.com/badge/github/JackWeller1/spookcord)](https://replit.com/@JackWeller1/spookcord)
-
-## Week 3
-
-## Made with:
-
-![react](https://img.shields.io/badge/REACT-61DBFB?logo=react&logoColor=000&style=for-the-badge)
