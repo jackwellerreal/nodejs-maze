@@ -33,7 +33,7 @@ button {
     background-color: #1b1b32;
 }
 
-a:link:visited:hover:active {
+a:link {
     color: #1b1b32;
     font-family: Arial, sans-serif;
     font-weight: bold;
