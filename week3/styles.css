@@ -11,7 +11,7 @@ body {
     overflow: hidden;
 }
 
-h1,h2,h3,p {
+h1,h2,h3,p,a {
     color: #1b1b32;
     font-family: Arial, sans-serif;
     font-weight: bold;
