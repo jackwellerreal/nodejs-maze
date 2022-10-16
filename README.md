@@ -27,6 +27,6 @@
 
 ## Link:
 
-![https://what.is-a.dev/spookcord/week3/](https://what.is-a.dev/spookcord/week3/)
+[https://what.is-a.dev/spookcord/week3/](https://what.is-a.dev/spookcord/week3/)
 
 ---
