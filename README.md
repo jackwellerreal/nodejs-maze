@@ -27,4 +27,6 @@
 
 ## Link:
 
-not ready yet lmao
+https://what.is-a.dev/spookcord/week3/
+
+---
