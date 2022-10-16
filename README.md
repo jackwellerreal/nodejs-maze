@@ -1,5 +1,7 @@
 # SpookCord Event
 
+---
+
 ## Week 1
 
 ## 🥈 Came 2nd
@@ -12,7 +14,9 @@
 
 [![Run on Repl.it](https://replit.com/badge/github/JackWeller1/spookcord)](https://replit.com/@JackWeller1/spookcord)
 
-## Week 13
+---
+
+## Week 3
 
 ## Made with:
 
