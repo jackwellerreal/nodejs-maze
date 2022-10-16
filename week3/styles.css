@@ -39,3 +39,26 @@ a:link:visited:hover:active {
     font-weight: bold;
     margin-bottom: 1em;
 }
+a:visited {
+    color: #1b1b32;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+a:hover {
+    color: #1b1b32;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+a:active {
+    color: #1b1b32;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.shop {
+    display: inline-block;
+    margin-top: 2.5em;
+}
