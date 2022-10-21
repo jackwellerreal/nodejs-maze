@@ -60,8 +60,7 @@ a:active {
 
 .container {
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    gap: 2.5em
+    grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
 ::-webkit-scrollbar {
